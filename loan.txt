@@ -1,0 +1,26 @@
+package com.prodapt.weekassignment;
+import java.util.Scanner;
+public class Loan {
+	  static int princple, rate, time, si;
+	void loanManagement()
+	{
+		Scanner sc = new Scanner(System.in);
+	  
+	    System.out.println("Principal= ");
+        princple = sc.nextInt();
+        System.out.println("Rate= ");
+        rate = sc.nextInt();
+        System.out.println("Time= ");
+        time = sc.nextInt();
+        si = (princple * rate * time) / 100;
+        System.out.println("simple interest= " +si);
+        if (time>=2)
+        {
+        	int Totalint=princple+si;
+        	System.out.println("amount to be paid after loan duration : "+Totalint);
+        }
+	}
+
+	
+    
+}

@@ -1,0 +1,24 @@
+package com.prodapt.weekassignment;
+
+import java.util.Scanner;
+
+public class SchoolRecords {
+	Scanner sc= new Scanner(System.in);
+	int School_ID= sc.nextInt();
+	String school_name= sc.nextLine();
+	String School_Address= sc.nextLine();
+	
+	void ddRecords( ) 
+	{
+		System.out.println("create school id= "+School_ID);
+		System.out.println("create school name= "+school_name);
+		System.out.println("create school Address= "+School_Address);
+		
+	}
+	void dispRecords()
+	{
+		System.out.println("displaying School records of student: "+School_ID+", "+ school_name+", "+ School_Address);
+	}
+
+
+}

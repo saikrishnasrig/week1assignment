@@ -1,0 +1,12 @@
+package com.prodapt.weekassignment;
+public class Tester1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SchoolRecords s= new SchoolRecords();	
+		s.ddRecords();
+		s.dispRecords();
+
+	}
+
+}
